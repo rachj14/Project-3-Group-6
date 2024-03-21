@@ -27,20 +27,25 @@ Mental health is a pressing concern influenced by various environmental and life
 1. The effects of music on mental health.
 2. The effects of social media use on mental health.
 3. The effects of air pollution on mental health.
+4. The effects of unemployment on mental health.
 
 ## Conclusion
 This project aims to provide a preliminary exploration of the relationships between music, social media, air pollution, and mental health.  
 
 ## Resources
 https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results
-Music & Mental Health Survey Results
+Music & Mental Health Survey Results - 
 Survey results on music taste and self-reported mental health
 
 https://www.kaggle.com/datasets/souvikahmed071/social-media-and-mental-health
-Social Media and Mental Health
+Social Media and Mental Health - 
 Correlation between Social Media use and General Mental Well-being
 
 https://www.kaggle.com/datasets/thedevastator/air-pollution-and-mental-health
-Air Pollution and Mental Health
+Air Pollution and Mental Health - 
 Identifying Short-Term Human Impacts of Air Pollution
+
+https://www.kaggle.com/datasets/michaelacorley/unemployment-and-mental-illness-survey/data
+Unemployment and Mental Health - 
+Exploring the causation of high unemployment among the mentally ill
 
