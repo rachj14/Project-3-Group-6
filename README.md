@@ -1,6 +1,6 @@
-# Project-3-Group-6
+# Project-3-Group-6 - Rachel, Malini, Masih and Rafi
 
-# Project Title: Exploring the Impact of Music, Social Media, and Air Pollution on Mental Health
+# Project Title: Exploring different factors impacting Mental Health
 
 ## Introduction
 Mental health is a pressing concern influenced by various environmental and lifestyle factors. This project aims to investigate the relationship between music consumption, social media usage, air pollution levels, and mental health outcomes using data available on Kaggle. Through efficient data analysis and visualization techniques, we aim to uncover insights that may inform future research or interventions.
@@ -22,6 +22,11 @@ Mental health is a pressing concern influenced by various environmental and life
 - Preliminary analysis report summarizing key findings and insights.
 - Simple visualizations showcasing correlations between factors.
 - Basic interactive dashboard prototype allowing for limited data exploration.
+
+## Research Questions:
+1. The effects of music on mental health.
+2. The effects of social media use on mental health.
+3. The effects of air pollution on mental health.
 
 ## Conclusion
 This project aims to provide a preliminary exploration of the relationships between music, social media, air pollution, and mental health.  
