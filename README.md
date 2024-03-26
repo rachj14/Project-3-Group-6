@@ -2,16 +2,16 @@
 
 # Project Title: Exploring different factors impacting Mental Health
 
-## Introduction
+## Introduction:
 Mental health is a pressing concern influenced by various environmental and lifestyle factors. This project aims to investigate the relationship between music consumption, social media usage, air pollution levels, and mental health outcomes using data available on Kaggle. Through efficient data analysis and visualization techniques, we aim to uncover insights that may inform future research or interventions.
 
-## Objectives
+## Objectives:
 - Analyse survey results on music consumption habits, social media usage patterns, air pollution exposure, and self-reported mental health indicators.
 - Identify correlations between these factors to understand their potential impact on mental well-being.
 - Create clear and concise visualizations using Python's Matplotlib library to present findings.
 - Develop a preliminary interactive dashboard prototype using Flask and basic JavaScript functionality for data exploration.
 
-## Methodology
+## Methodology:
 - Data Collection: Utilise provided datasets on music & mental health, social media & mental health, and air pollution & mental health surveys.
 - Data Preprocessing: Quickly clean and preprocess the survey data using Python's Pandas library to handle missing values and merge datasets if necessary.
 - Exploratory Data Analysis (EDA): Conduct brief EDA to identify initial trends and correlations in the datasets. Use Matplotlib to create simple visualizations such as bar plots, scatter plots, or pie charts.
@@ -29,10 +29,16 @@ Mental health is a pressing concern influenced by various environmental and life
 3. The effects of air pollution on mental health.
 4. The effects of unemployment on mental health.
 
-## Conclusion
+## Datasets Sotred in Databases:
+
+## Using the Flask API:
+
+## Ethical Considerations:
+
+## Conclusion:
 This project aims to provide a preliminary exploration of the relationships between music, social media, air pollution, and mental health.  
 
-## Resources
+## Resources:
 https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results
 Music & Mental Health Survey Results - 
 Survey results on music taste and self-reported mental health
