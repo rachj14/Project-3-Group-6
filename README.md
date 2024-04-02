@@ -47,9 +47,9 @@ https://www.kaggle.com/datasets/souvikahmed071/social-media-and-mental-health
 Social Media and Mental Health - 
 Correlation between Social Media use and General Mental Well-being
 
-https://www.kaggle.com/datasets/thedevastator/air-pollution-and-mental-health
-Air Pollution and Mental Health - 
-Identifying Short-Term Human Impacts of Air Pollution
+https://www.kaggle.com/datasets/thedevastator/air-pollution-and-mental-health](https://www.kaggle.com/datasets/programmerrdai/mental-health-dataset
+Worldwide Mental Health dataset - 
+Identifying the trend of Mental Health Issues 
 
 https://www.kaggle.com/datasets/michaelacorley/unemployment-and-mental-illness-survey/data
 Unemployment and Mental Health - 
