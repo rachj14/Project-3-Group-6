@@ -29,7 +29,7 @@ Mental health is a pressing concern influenced by various environmental and life
 3. The effects of air pollution on mental health.
 4. The effects of unemployment on mental health.
 
-## Datasets Sotred in Databases:
+## Datasets Stored in Databases:
 
 ## Using the Flask API:
 
