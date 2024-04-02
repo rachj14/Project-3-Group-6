@@ -17,13 +17,13 @@
             var contentDiv = document.getElementById("content");
 
             if (selectedValue === "mood") {
-                contentDiv.innerHTML = "<h2>Frequency of down/depressive moods</h2><p>Relationship between time spent using social media and the frequency of feeling down/depressed.</p><ul><li>Assumptions: 5-point scale - 1: Not often; 5: Very Often.</li><li>Positive, linear relationship between the two variables.</li><li>The more time someone spends using social media, the more likely they are to experience feelings of being down or depressed.</li><img src='static/PNGs/mood_output.png'>"
+                contentDiv.innerHTML = "<h2>Frequency of down/depressive moods</h2><p>Relationship between time spent using social media and the frequency of feeling down/depressed.</p><ul><li>Assumptions: 5-point scale - 1: Not often; 5: Very Often.</li><li>Positive, linear relationship between the two variables.</li><li><strong>Conclusion:</strong> The more time one spends using social media, the more likely they are to experience feelings of being down or depressed, thus negatively impacting mental health.</li><img src='static/PNGs/mood_output.png'>"
             } else if (selectedValue === "distraction") {
-                contentDiv.innerHTML = "<h2>Frequency of down/depressive moods</h2><p>Relationship between time spent using social media and the frequency of feeling down/depressed.</p><ul><li>Assumptions: 5-point scale - 1: Not often; 5: Very Often.</li><li>Positive, linear relationship between the two variables.</li><li>The more time someone spends using social media, the more likely they are to experience feelings of being down or depressed.</li><img src='static/PNGs/mood_output.png'>";
+                contentDiv.innerHTML = "<h2>Frequency of being distracted by social media</h2><p>Relationship between time spent using social media and the frequency of being distracted by social media whilst busy doing something else.</p><ul><li>Assumptions: 5-point scale - 1: Not often; 5: Very Often.</li><li>Positive, linear relationship between the two variables.</li><li><strong>Conclusion:</strong> The more time one spends using social media, the more likely they are to be distracted by social media whilst busy doing other things. This has implications on affecting their focus and attention, and ability to complete other important day-to-day priorities.</li><img src='static/PNGs/distracted_output.png'>";
             } else if (selectedValue === "comparison") {
-                contentDiv.innerHTML = "<h2>Option 3 Content</h2><p>This is the content for Option 3.</p>";
+                contentDiv.innerHTML = "<h2>Frequency of comparing self to others</h2><p>Relationship between time spent using social media and the frequency of comparing self to others.</p><ul><li>Assumptions: 5-point scale - 1: Not often; 5: Very Often.</li><li>Positive, linear relationship between the two variables, with a slight dip after average time 4 hours of using social media.</li><li><strong>Conclusion:</strong> The more time one spends using social media, the more likely they are to compare themselves to other people. This negatively impacts their self-esteem, thus could lead to periods of feeling down about themselves and poor mental health.</li><img src='static/PNGs/comparison_output.png'>";
             } else if (selectedValue === "sleep") {
-                contentDiv.innerHTML = "<h2>Option 4 Content</h2><p>This is the content for Option 4.</p>";
+                contentDiv.innerHTML = "<h2>Frequency of sleep issues</h2><p>Relationship between time spent using social media and the frequency of experiencing sleep issues.</p><ul><li>Assumptions: 5-point scale - 1: Not often; 5: Very Often.</li><li>Positive, linear relationship between the two variables.</li><li><strong>Conclusion:</strong> The more time one spends using social media, the more likely they are to experience sleep issues. Poor quality of sleep has been shown to impact brain functioning (i.e., decision making, concentrating, regulating emotions), thus more likely to lead poorer quality of life and therefore mental health.</li><img src='static/PNGs/sleep_output.png'>";
             } else {
                 contentDiv.innerHTML = "";
             }
@@ -36,13 +36,13 @@
     <select id="variable" name="variable" onchange="updateContent()">
         <option value ="default" selected>Choose a variable</option>
         <option value="mood">Depressive/Down Moods</option>
-        <option value="distraction">Distracted</option>
+        <option value="distraction">Easily Distracted</option>
         <option value="comparison">Comparing to Others</option>
         <option value="sleep">Sleep Issues</option>
     </select>
     <div id="content"></div>
     <div class="container mt-4 lead">
-        
+        <p><strong>Overall Conclusion:</strong> High use of social media has a negative impact on mental health across factors directly and indirectly linked, as seen by affects on frequencies of: feeling down, being distracted whilst doing other things, comparing self to others, and having sleep issues.</p>
     </div>
 </body>
 
