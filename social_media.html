@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title></title>
+
+</head>
+
+<body>
+    <script>
+        function updateContent() {
+            var selectedValue = document.getElementById("variable").value;
+            var contentDiv = document.getElementById("content");
+
+            if (selectedValue === "mood") {
+                contentDiv.innerHTML = "<h2>Frequency of down/depressive moods</h2><p>Relationship between time spent using social media and the frequency of feeling down/depressed.</p><ul><li>Assumptions: 5-point scale - 1: Not often; 5: Very Often.</li><li>Positive, linear relationship between the two variables.</li><li>The more time someone spends using social media, the more likely they are to experience feelings of being down or depressed.</li><img src='static/PNGs/mood_output.png'>"
+            } else if (selectedValue === "distraction") {
+                contentDiv.innerHTML = "<h2>Frequency of down/depressive moods</h2><p>Relationship between time spent using social media and the frequency of feeling down/depressed.</p><ul><li>Assumptions: 5-point scale - 1: Not often; 5: Very Often.</li><li>Positive, linear relationship between the two variables.</li><li>The more time someone spends using social media, the more likely they are to experience feelings of being down or depressed.</li><img src='static/PNGs/mood_output.png'>";
+            } else if (selectedValue === "comparison") {
+                contentDiv.innerHTML = "<h2>Option 3 Content</h2><p>This is the content for Option 3.</p>";
+            } else if (selectedValue === "sleep") {
+                contentDiv.innerHTML = "<h2>Option 4 Content</h2><p>This is the content for Option 4.</p>";
+            } else {
+                contentDiv.innerHTML = "";
+            }
+        }
+    </script>
+    <header class="bg-primary text-white text-center py-4">
+        <h1 class="display-4">Social Media effects on Mental Health</h1>
+    </header>
+    <label for="variable">Select a Mental Health variable:</label>
+    <select id="variable" name="variable" onchange="updateContent()">
+        <option value ="default" selected>Choose a variable</option>
+        <option value="mood">Depressive/Down Moods</option>
+        <option value="distraction">Distracted</option>
+        <option value="comparison">Comparing to Others</option>
+        <option value="sleep">Sleep Issues</option>
+    </select>
+    <div id="content"></div>
+    <div class="container mt-4 lead">
+        
+    </div>
+</body>
+
+</html>
+
+
