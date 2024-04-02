@@ -4,9 +4,10 @@ import plotly.express as px
 import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
+from flask import Flask, render_template
 
 # Read the mental health dataset
-data_path = "/Users/Masih/Desktop/bootcamp /Project-3-Group-6/mental_health.csv"
+data_path = "/Users/Masih/Desktop/bootcamp /Project-3-Group-6/dataset/mental_health.csv"
 data = pd.read_csv(data_path)
 
 # Group by 'Country' and calculate the mean of the 'Percent' column for each country
@@ -27,6 +28,16 @@ merged_data['Percent '] = merged_data['Percent '].fillna(0)
 # Initialize Dash app
 app = dash.Dash(__name__)
 
+# Initialize Flask server
+server = app.server
+
+# Define additional Flask routes
+@server.route('/music')
+def render_music_page():
+    with open('Music.html', 'r') as file:
+        content = file.read()
+    return content
+
 # Define app layout
 app.layout = html.Div([
     html.H1("Mental Health Dashboard"),
@@ -45,8 +56,11 @@ app.layout = html.Div([
     # Choropleth map
     dcc.Graph(id='choropleth-map', style={'margin-top': '20px'}),
     
-    # Respondents Data link
-    html.A("Respondents Data", href="dataset/Music1.json", target="_blank", style={'margin-left': '20px'})
+    # HTML link
+    html.A("Respondents Data", href="dataset/Music1.json", target="_blank", style={'margin-left': '20px'}),
+    
+    # Link to Music page
+    html.A("Music Page", href="/music", target="_blank", style={'margin-left': '20px'}),
 ])
 
 # Callback to update bar plot and choropleth map based on selected country
