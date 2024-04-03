@@ -38,6 +38,12 @@ def render_music_page():
         content = file.read()
     return content
 
+@server.route('/social_media')
+def render_social_media_page():
+    with open('social_media.html', 'r') as file:
+        content = file.read()
+    return content
+
 # Define app layout
 app.layout = html.Div([
     html.H1("Mental Health Dashboard"),
@@ -61,6 +67,9 @@ app.layout = html.Div([
     
     # Link to Music page
     html.A("Music Page", href="/music", target="_blank", style={'margin-left': '20px'}),
+    
+    # Link to Social Media page
+    html.A("Social Media Page", href="/social_media", target="_blank", style={'margin-left': '20px'}),
 ])
 
 # Callback to update bar plot and choropleth map based on selected country
