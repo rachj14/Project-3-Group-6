@@ -29,11 +29,19 @@ Mental health is a pressing concern influenced by various environmental and life
 3. The effects of air pollution on mental health.
 4. The effects of unemployment on mental health.
 
-## Datasets Sotred in Databases:
+## Datasets Stored in Databases:
+- Social media dataset: social_media.csv file imported and stored in a MongoDB database as "mentalhealthDB". Class "social_media" created to store the documents, as shown below.
+<img width="1432" alt="Screenshot 2024-04-03 at 9 50 14 pm" src="https://github.com/rachj14/Project-3-Group-6/assets/151903302/faefa0b1-b5f2-4dea-8c33-4e9bb9be59d3">
 
-## Using the Flask API:
+## Interacting and Using the Project:
+1. Run App.py and then copy the address into your webpage.
+2. This will open our homepage "Mental Health" dashboard. This shows a bar graph and map view of the mean Mental Health scores across the world. Select a different county using the drop-down menu.
+3. Scroll down to the bottom and select the "Music Page" link which will direct you to a html page with analysis of how music impacts mental health.
+4. Navigate back to the Mental Health dashboard homepage. Now, click on the "Social Media Page" link to direct you to the html page with analysis of how social media impacts mental health.
 
 ## Ethical Considerations:
+- An ethical consideration with using the Social Media dataset is that the dataset captured personal information such as the respondents' age, gender and relationship status, which can be used as identifiers of an individual if the responses are to be kept anonymous.
+- The dataset also includes data such as the state of the respondent's mental health, which could be considered as sensitive.
 
 ## Conclusion:
 This project aims to provide a preliminary exploration of the relationships between music, social media, air pollution, and mental health.  
