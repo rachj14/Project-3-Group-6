@@ -30,7 +30,7 @@ Mental health is a pressing concern influenced by various environmental and life
 4. The effects of unemployment on mental health.
 
 ## Datasets Stored in Databases:
-- Social media dataset: csv file imported and stored in a MongoDB database as "mentalhealthDB". Class "social_media" created to store the documents, as shown below.
+- Social media dataset: social_media.csv file imported and stored in a MongoDB database as "mentalhealthDB". Class "social_media" created to store the documents, as shown below.
 <img width="1432" alt="Screenshot 2024-04-03 at 9 50 14 pm" src="https://github.com/rachj14/Project-3-Group-6/assets/151903302/faefa0b1-b5f2-4dea-8c33-4e9bb9be59d3">
 
 ## Using the Flask API:
